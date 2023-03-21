@@ -10,7 +10,7 @@ Follow the prompts for each numbered section to recreate the dashboard.
 <div>
     <center>
 <table><tr><td>
-<img src = "s3://curriculum-content/data-science/images/v3/tableau/tableau/new-dash.png" alt="Dashboard created in Tableau." style="width: 700px;"/>
+<img src = "https://curriculum-content/data-science/images/v3/tableau/tableau/new-dash.png" alt="Dashboard created in Tableau." style="width: 700px;"/>
 </td></tr></table>
     </center>
 </div>

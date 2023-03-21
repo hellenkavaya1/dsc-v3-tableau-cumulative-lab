@@ -7,14 +7,15 @@ In this exercise, you will use knowledge of the Tableau interface, data visualiz
 
 Follow the prompts for each numbered section to recreate the dashboard.
 
+<br>
+<br>
 <div>
     <center>
 <table><tr><td>
-<img src = "https://curriculum-content/data-science/images/v3/tableau/tableau/new-dash.png" alt="Dashboard created in Tableau." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/new-dash.png" alt="This is the alt-text for the image." style="width: 800px;"/>
 </td></tr></table>
     </center>
 </div>
-
 
 
 When you are finished, save and publish to Tableau Public. Then, add the link to this assignment and click submit. You've just created your first interactive dashboard with Tableau Public!

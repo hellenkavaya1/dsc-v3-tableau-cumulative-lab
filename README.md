@@ -1,7 +1,7 @@
 # Tableau Dashboards - Cumulative Lab
 
 ## Introduction
-Over the course of the Tableau module, we have used the Superstore Sales dataset learn about the Tableau environment interface, including the Start page, Data Source page, and Workspace. Then, we explored the useful visualizations that can be created in Tableau Public. Finally, we discussed how we can combine the vizzes in our workbooks to create dashboards to communicate our insights.  Now it's your turn to apply your skills in Tableau.
+We have used the Superstore Sales dataset learn about the Tableau environment interface, including the Start page, Data Source page, and Workspace. Then, we explored the useful visualizations that can be created in Tableau Public. Finally, we discussed how we can combine the vizzes in our workbooks to create dashboards to communicate our insights.  Now it's your turn to apply your skills in Tableau.
 
 In this exercise, you will use knowledge of the Tableau interface, data visualizations, and dashboards to re-create the dashboard pictured below. 
 
@@ -51,6 +51,17 @@ To recreate the dashboard, follow the instructions below. When you are finished,
     3. Change the title of the chart to "Sales by Regional Manager". Change the font size to 16.  Center the title and change the background to light-gray.
     4. Add `Sales` to the Marks card, and select the Size attribute. Then, add `Postal Code` to the Marks card and select the Detail attribute. This will populate the map with sales by postal code.
     5. Add `Regional Manager` to the Marks card, and select the Color attribute. Then, click the Color icon and select Edit Color. Then, select Lightening Default. Assign the following colors to each Regional Manager:
+    
+<br>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/regional-manager.png" alt="This is the alt-text for the image." style="width: 800px;"/>
+</td></tr></table>
+    </center>
+</div>
+
+
     6. Next, drag  `Profit` to the Marks card and add the Detail attribute. 
     7. Then, drag `Regional Manager` to the Filter shelf.
 

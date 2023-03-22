@@ -1,7 +1,7 @@
 # Tableau Dashboards - Cumulative Lab
 
 ## Introduction
-We have used the Superstore Sales dataset learn about the Tableau environment interface, including the Start page, Data Source page, and Workspace. Then, we explored the useful visualizations that can be created in Tableau Public. Finally, we discussed how we can combine the vizzes in our workbooks to create dashboards to communicate our insights.  Now it's your turn to apply your skills in Tableau.
+We have used the Superstore Sales dataset to learn about the Tableau environment interface, including the Start page, Data Source page, and Workspace. Then, we explored the useful visualizations that can be created in Tableau Public. Finally, we discussed how we can combine the vizzes in our workbooks to create dashboards to communicate our insights.  Now it's your turn to apply your skills in Tableau.
 
 In this exercise, you will use knowledge of the Tableau interface, data visualizations, and dashboards to create the Super Store Sales dashboard.
 
@@ -18,7 +18,7 @@ To recreate the dashboard, follow the instructions below. When you are finished,
 1. Create a new worksheet.
 2. Drag the `Profits` pill to the Columns shelf from the Data Pane.
 3. Drag the `Sub-Category` pill to the Rows shelf from the Data Pane.
-4. Change the title of the chart to "Profits by Sub-Category". Change the font size to 16.  Center the title and change the background to light-gray.
+4. Change the title of the chart to "Profits by Sub-Category". Change the font size to 16.  Center the title and change the background to light gray.
 5. Then, order the bars in the bar chart in descending order.
 6. Next, use the Marks card to change the color of the bars to "Sunrise-Sunset Diverging"
 7. Next, use the Marks card to add labels that indicate the sum of the profits for each of the bars. (Don't forget the currency symbols!)
@@ -29,7 +29,7 @@ To recreate the dashboard, follow the instructions below. When you are finished,
 1. Create a new worksheet.
 2. Drag the `Order Date` pill to the Columns shelf from the Data Pane. Adjust `Order Date` to "Quarterly".
 2. Drag the `Sales` pill to the Rows shelf from the Data Pane.
-3. Change the title of the chart to "Quarterly Sales by Region". Change the font size to 16.  Center the title and change the background to light-gray.
+3. Change the title of the chart to "Quarterly Sales by Region". Change the font size to 16.  Center the title and change the background to light gray.
 4. Then, use the Color attribute on the Marks card to create distinct lines for each Regional Manager.
 6. Next, use the Marks card to add the total sales for each quarter to the chart. (Don't forget the currency symbols!)
 8. Fit the visualization to "Entire View".
@@ -38,7 +38,7 @@ To recreate the dashboard, follow the instructions below. When you are finished,
 ### Part D - Create a Regional Map
 1. Create a new worksheet.
 2. Drag the `Longitude` and `Latitude` to the Row shelf and the Column shelf.
-3. Change the title of the chart to "Sales by Regional Manager". Change the font size to 16.  Center the title and change the background to light-gray.
+3. Change the title of the chart to "Sales by Regional Manager". Change the font size to 16.  Center the title and change the background to light gray.
 4. Add `Sales` to the Marks card, and select the Size attribute. Then, add `Postal Code` to the Marks card and select the Detail attribute. This will populate the map with sales by postal code.
 5. Add `Regional Manager` to the Marks card, and select the Color attribute. Then, click the Color icon and select Edit Color. Then, select Lightening Default. Assign the following colors to each Regional Manager:
     
@@ -58,11 +58,11 @@ To recreate the dashboard, follow the instructions below. When you are finished,
 ### Part E - Create a Time Series Line Graph
 1. Create a new worksheet.
 2. Drag the `Longitude` and `Latitude` to the Row shelf and the Column shelf.
-3. Change the title of the chart to "Quarterly Sales by Regional Manager". Change the font size to 16.  Center the title and change the background to light-gray.
+3. Change the title of the chart to "Quarterly Sales by Regional Manager". Change the font size to 16.  Center the title and change the background to light gray.
 
 ### Part F - Create and Publish the Dashboard
 1. Adjust the layout from **Phone** to **Desktop**. Select **Fit Width** and set **Height** to 1060px. Then, select **Custom** and **Tiled** from the layout card.
-2. Check **Show Dashboard Title** and change the title to "Super Store Sales Dashboard". Change the font size to 22. Center the title and change the background to light-blue.
+2. Check **Show Dashboard Title** and change the title to "Super Store Sales Dashboard". Change the font size to 22. Center the title and change the background to light blue.
 3. Add a **Horizontal Container** under the dashboard title and set the layout to **Tiled**. 
 4. On the legends, change the font size to 12, and center the title.
 5. Using two **Vertical Containers**, position the charts and legends in the layout displayed below.

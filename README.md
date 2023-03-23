@@ -7,7 +7,6 @@ In this exercise, you will use knowledge of the Tableau interface, data visualiz
 
 To recreate the dashboard, follow the instructions below. When you are finished, save and publish to Tableau Public. Then, add the link to this assignment and click submit. You've just created your first interactive dashboard with Tableau Public!
 
-
 The final product should look like this:
 <br>
 <br>

@@ -13,7 +13,6 @@ To recreate the dashboard, follow the instructions below. When you are finished,
 1. Launch Tableau and from the Start page, use the Connect pane to open the SuperStore Sales dataset.
 2. From the Data Source page, populate Canvas logical layer with the `Orders` table and the `People` table.
     
-    
 ### Part B - Create a Bar Chart
 1. Create a new worksheet.
 2. Drag the `Profits` pill to the Columns shelf from the Data Pane.
@@ -24,18 +23,18 @@ To recreate the dashboard, follow the instructions below. When you are finished,
 7. Next, use the Marks card to add labels that indicate the sum of the profits for each of the bars. (Don't forget the currency symbols!)
 8. Fit the visualization to "Entire View".
 
+<br>
+<br>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/clab-plot-1.png" alt="This is the alt-text for the image." style="width: 600px;"/>
+</td></tr></table>
+    </center>
+</div>
 
-### Part C - Create a Line Chart
-1. Create a new worksheet.
-2. Drag the `Order Date` pill to the Columns shelf from the Data Pane. Adjust `Order Date` to "Quarterly".
-2. Drag the `Sales` pill to the Rows shelf from the Data Pane.
-3. Change the title of the chart to "Quarterly Sales by Region". Change the font size to 16.  Center the title and change the background to light gray.
-4. Then, use the Color attribute on the Marks card to create distinct lines for each Regional Manager.
-6. Next, use the Marks card to add the total sales for each quarter to the chart. (Don't forget the currency symbols!)
-8. Fit the visualization to "Entire View".
 
-
-### Part D - Create a Regional Map
+### Part C - Create a Regional Map
 1. Create a new worksheet.
 2. Drag the `Longitude` and `Latitude` to the Row shelf and the Column shelf.
 3. Change the title of the chart to "Sales by Regional Manager". Change the font size to 16.  Center the title and change the background to light gray.
@@ -54,8 +53,18 @@ To recreate the dashboard, follow the instructions below. When you are finished,
 6. Next, drag  `Profit` to the Marks card and add the Detail attribute. 
 7. Then, drag `Regional Manager` to the Filter shelf.
 
+<br>
+<br>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/clab-plot-1.png" alt="This is the alt-text for the image." style="width: 600px;"/>
+</td></tr></table>
+    </center>
+</div>
 
-### Part E - Create a Time Series Line Graph
+
+### Part D - Create a Time Series Line Graph
 1. Create a new worksheet.
 2. Drag the `Longitude` and `Latitude` to the Row shelf and the Column shelf.
 3. Change the title of the chart to "Quarterly Sales by Regional Manager". Change the font size to 16.  Center the title and change the background to light gray.
@@ -72,10 +81,22 @@ To recreate the dashboard, follow the instructions below. When you are finished,
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/new-dash.png" alt="This is the alt-text for the image." style="width: 800px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/clab-plot-3.png" alt="This is the alt-text for the image." style="width: 800px;"/>
 </td></tr></table>
     </center>
 </div>
 
-6. Save and publish to Tableau Public as `learn-wb-MMDDYY-XX` where `XX` is your initials and `MMDDYY` refers to the current month, date, and year.
-7. Locate the share link on your Tableau Public site and upload it to this assignment.
+6. Save and publish to Tableau Public as `learn-wb-MM-DD-YY-XX` where `XX` is your initials and `MMDDYY` refers to the current month, date, and year.
+
+7. Locate the share link on your Tableau Public site and submit your workbook link.
+
+<br>
+<br>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/tab-public.png" alt="This is the alt-text for the image." style="width: 800px;"/>
+</td></tr></table>
+    </center>
+</div>
+

@@ -28,7 +28,7 @@ To recreate the dashboard, follow the instructions below. When you are finished,
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/clab-plot-1.png" alt="This is the alt-text for the image." style="width: 600px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/clab-plot-1.png" alt="This is the alt-text for the image." style="width: 800px;"/>
 </td></tr></table>
     </center>
 </div>
@@ -45,7 +45,7 @@ To recreate the dashboard, follow the instructions below. When you are finished,
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/regional-mgr.png" alt="This is the alt-text for the image." style="width: 800px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/regional-mgr.png" alt="This is the alt-text for the image." style="width: 800px;"/>
 </td></tr></table>
     </center>
 </div>

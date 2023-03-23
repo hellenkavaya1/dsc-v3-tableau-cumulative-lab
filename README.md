@@ -83,6 +83,16 @@ The final product should look like this:
 2. Drag the `Longitude` and `Latitude` to the Row shelf and the Column shelf.
 3. Change the title of the chart to "Quarterly Sales by Regional Manager". Change the font size to 16.  Center the title and change the background to light gray.
 
+<br>
+<br>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/clab-plot-3.png" alt="This is the alt-text for the image." style="width: 800px;"/>
+</td></tr></table>
+    </center>
+</div>
+
 ### Part F - Create and Publish the Dashboard
 1. Adjust the layout from **Phone** to **Desktop**. Select **Fit Width** and set **Height** to 1060px. Then, select **Custom** and **Tiled** from the layout card.
 2. Check **Show Dashboard Title** and change the title to "Super Store Sales Dashboard". Change the font size to 22. Center the title and change the background to light blue.

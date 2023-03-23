@@ -7,6 +7,21 @@ In this exercise, you will use knowledge of the Tableau interface, data visualiz
 
 To recreate the dashboard, follow the instructions below. When you are finished, save and publish to Tableau Public. Then, add the link to this assignment and click submit. You've just created your first interactive dashboard with Tableau Public!
 
+
+The final product should look like this:
+<br>
+<br>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/clab-plot-1.png" alt="This is the alt-text for the image." style="width: 800px;"/>
+</td></tr></table>
+    </center>
+</div>
+
+[Tableau Dashboard Link](https://public.tableau.com/views/learn-wb-2022_12_CE_v2/SalesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+
 ## Instructions
 
 ### Part A - Connect to a Data Source and Create a New Workbook

@@ -87,7 +87,7 @@ The final product should look like this:
 1. Adjust the layout from **Phone** to **Desktop**. Select **Fit Width** and set **Height** to 1060px. Then, select **Custom** and **Tiled** from the layout card.
 2. Check **Show Dashboard Title** and change the title to "Super Store Sales Dashboard". Change the font size to 22. Center the title and change the background to light blue.
 3. Add a **Horizontal Container** under the dashboard title and set the layout to **Tiled**. 
-4. On the legends, change the font size to 12, and center the title.
+4. On the legends, change the font size to 26, and center the title.
 5. Using two **Vertical Containers**, position the charts and legends in the layout displayed below.
 
 <br>
@@ -95,7 +95,7 @@ The final product should look like this:
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/clab-plot-3.png" alt="This is the alt-text for the image." style="width: 800px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/clab-dash-final.png" alt="This is the alt-text for the image." style="width: 800px;"/>
 </td></tr></table>
     </center>
 </div>

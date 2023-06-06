@@ -24,17 +24,22 @@ The final product should look like this:
 ## Instructions
 
 ### Part A - Connect to a Data Source and Create a New Workbook
+*For Part A, use lessons "Tableau Public: Getting Started", "Tableau Public: The Data Source Page", and "Tableau Public: Customizing Data Sources" as a reference.*
+
 1. Launch Tableau and from the Start page, use the Connect pane to open the SuperStore Sales dataset.
 2. From the Data Source page, populate Canvas logical layer with the `Orders` table and the `People` table.
     
 ### Part B - Create a Bar Chart
+*For Part B, use lessons "Tableau Visualizations: Visualization Basics" and "Tableau Visualizations: Visualization Basics Lab" as a reference.*
+
+
 1. Create a new worksheet.
 2. Drag the `Profits` pill to the Columns shelf from the Data Pane.
 3. Drag the `Sub-Category` pill to the Rows shelf from the Data Pane.
 4. Change the title of the chart to "Profits by Sub-Category". Change the font size to 16.  Center the title and change the background to light gray.
 5. Then, order the bars in the bar chart in descending order.
-6. Next, use the Marks card to change the color of the bars to "Sunrise-Sunset Diverging"
-7. Next, use the Marks card to add labels that indicate the sum of the profits for each of the bars. (Don't forget the currency symbols!)
+6. Next, drag the `Profits` pill from the Data pane to the Marks card, and use the Marks card to change the color of the bars to "Sunrise-Sunset Diverging".
+7. Next use the Marks card to add labels that indicate the sum of the profits for each of the bars by dragging another `Profits` pill from the Data pane and using the label attribute. (Don't forget the currency symbols!)
 8. Fit the visualization to "Entire View".
 
 <br>
@@ -49,9 +54,10 @@ The final product should look like this:
 
 
 ### Part C - Create a Regional Map
+*For Part C, use lessons "Tableau Visualizations: Visualization Basics" and "Tableau Visualizations: Visualization Basics Lab" as a reference.*
 1. Create a new worksheet.
 2. Drag the `Longitude` and `Latitude` to the Row shelf and the Column shelf.
-3. Change the title of the chart to "Sales by Regional Manager". Change the font size to 16.  Center the title and change the background to light gray.
+3. Change the title of the chart to "Sales by Regional Manager". Change the font size to 16.  Center the title and change the background to light gray by right clicking the title, then using **Format Title > Shading dropdown**.
 4. Add `Sales` to the Marks card, and select the Size attribute. Then, add `Postal Code` to the Marks card and select the Detail attribute. This will populate the map with sales by postal code.
 5. Add `Regional Manager` to the Marks card, and select the Color attribute. Then, click the Color icon and select Edit Color. Then, select Lightening Default. Assign the following colors to each Regional Manager:
     
@@ -64,8 +70,8 @@ The final product should look like this:
     </center>
 </div>
 
-6. Next, drag  `Profit` to the Marks card and add the Detail attribute. 
-7. Then, drag `Regional Manager` to the Filter shelf.
+6. Next, drag  `Profit` to the Marks card and add the Detail attribute. This will allow users to view the profits in conjunction with sales (becuase high sales does not always mean high profits). 
+8. Then, drag `Regional Manager` to the Filter shelf.
 
 <br>
 <br>
@@ -79,9 +85,12 @@ The final product should look like this:
 
 
 ### Part D - Create a Time Series Line Graph
+*For Part D, use lessons "Tableau Visualizations: Visualization Basics" and "Tableau Visualizations: Visualization Basics Lab" as a reference.*
 1. Create a new worksheet.
-2. Drag the `Longitude` and `Latitude` to the Row shelf and the Column shelf.
-3. Change the title of the chart to "Quarterly Sales by Regional Manager". Change the font size to 16.  Center the title and change the background to light gray.
+2. Drag the `Sales` and `Order Date` pills from the Data pane to the Row shelf and the Column shelf. You will notice that `Sales` becomes `SUM(Sales)` and that `Order Date` becomes `YEAR(Order Date)`. On the `YEAR(Order Date)` pill, click the arrow directly to the right of the text on the `YEAR(Order Date)` pill. This will reveal a drop down menu. Select **Quarter** from the dropdown, which will change `YEAR(Order Date)` to `Quarter(Order Date)`.
+3. Change the title of the chart to "Quarterly Sales by Region". Change the font size to 16.  Center the title and change the background to light gray by right clicking the title, then using **Format Title > Shading dropdown**.
+4. Add `Sales` to the Marks card, and select the Size attribute. Then, add `Postal Code` to the Marks card and select the Detail attribute. This will populate the map with sales by postal code.
+5. Add `Regional Manager` to the Marks card, and select the Color attribute. Then, click the Color icon and select Edit Color. Then, select Lightning Default. Assign the following colors to each Regional Manager:
 
 <br>
 <br>
@@ -93,12 +102,15 @@ The final product should look like this:
     </center>
 </div>
 
-### Part F - Create and Publish the Dashboard
+### Part E - Create and Publish the Dashboard
+*For Part E, use lessons "Tableau Dashboards: Introduction", "Tableau Dashboards: Dashboard Basics" and "Tableau Dashboards: Dashboard Basics Lab" as a reference.*
+
 1. Adjust the layout from **Phone** to **Desktop**. Select **Fit Width** and set **Height** to 1060px. Then, select **Custom** and **Tiled** from the layout card.
-2. Check **Show Dashboard Title** and change the title to "Super Store Sales Dashboard". Change the font size to 22. Center the title and change the background to light blue.
-3. Add a **Horizontal Container** under the dashboard title and set the layout to **Tiled**. 
-4. On the legends, change the font size to 26, and center the title.
-5. Using two **Vertical Containers**, position the charts and legends in the layout displayed below.
+2. Check **Show Dashboard Title** and change the title to "Super Store Sales Dashboard". Change the font size to 26. Center the title and change the background to light blue.
+3. When the title is selected, select the Layout tab on the left bar menu, then choose Background and change the background to gray. 
+4. Add a **Horizontal Container** under the dashboard title and set the layout to **Tiled**. 
+5. On the legends, change the font size of the legend title to 12, and center the title. (You can change the title on legends the same way the title is changed on dashboards and visualizations.
+6. Using two **Vertical Containers**, position the charts and legends in the layout displayed below.
 
 <br>
 <br>

@@ -5,7 +5,7 @@ We have used the Superstore Sales dataset to learn about the Tableau environment
 
 In this exercise, you will use knowledge of the Tableau interface, data visualizations, and dashboards to create the Super Store Sales dashboard.
 
-To recreate the dashboard, follow the instructions below. When you are finished, save and publish to Tableau Public. Then, add the link to this assignment and click submit. You've just created your first interactive dashboard with Tableau Public!
+To recreate the dashboard, follow the instructions below. When you are finished, save and publish to Tableau Public. Then, add the link to this assignment and click submit. You've just created your first interactive dashboard with Tableau Public.
 
 The final product should look like this:
 <br>
@@ -24,9 +24,8 @@ The final product should look like this:
 ## Instructions
 
 ### Part A - Connect to a Data Source and Create a New Workbook
-*For Part A, use lessons "Tableau Public: Getting Started", "Tableau Public: The Data Source Page", and "Tableau Public: Customizing Data Sources" as a reference.*
 
-1. Launch Tableau and from the Start page, use the Connect pane to open the SuperStore Sales dataset.
+1. Launch Tableau and from the Start page, use the Connect pane to open the SuperStore Sales dataset, which is located in the repo. It can also be downloaded directly from Tableau. * N.B. Tableau updates this file periodically, so your results may differ slightly from what is given below.*
 2. From the Data Source page, populate Canvas logical layer with the `Orders` table and the `People` table.
     
 ### Part B - Create a Bar Chart

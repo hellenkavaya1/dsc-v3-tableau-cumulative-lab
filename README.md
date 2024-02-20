@@ -149,3 +149,27 @@ The final product should look like this:
 </td></tr></table>
     </center>
 </div>
+
+### Level-Up: More advanced filtering
+
+*In Tableau you can set advance filters and highlighters across multiple worksheets via the Actions panel*
+
+1. On any worksheet (not dashboard) go the **Worksheet dropdown > Actions**
+2. From here you can add any number of action rules including filtering and highlighting
+3. Here are some quick filters to explore for this dashboard.
+    - Filter by Sub-Category
+        - Source Sheets: Orders+ > **Profit by Sub-Category**
+        - Target Sheets: Dashboard > All three
+        - Choose to run on select and to show all values when clearing
+        - Filter > Selected fields > **Sub-Category**
+    - Filter by Regional Manager - for Sub-Categories
+        - Source Sheets: Orders+ > **Sales by Regional Manager**
+        - Target Sheets: Dashboard > All three
+        - Choose to run on select and to show all values when clearing
+        - Filter > Selected fields > **Regional Manager**
+    - Filter by Manager and Quarter - for Sub-Categories
+        - Source Sheets: Orders+ > **Quarterly Sales by Region**
+        - Target Sheets: Dashboard > All three
+        - Choose to run on select and to show all values when clearing
+        - Filter > Selected fields > **Regional Manager** followed by **# QUARTER(ORDER Date)**
+4. Check out how all these filters interact on the final dashboard!

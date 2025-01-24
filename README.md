@@ -6,7 +6,7 @@ In previous lessons we have utilized the provided Superstore Sales dataset to le
 
 In this exercise, you will use knowledge of the Tableau interface and data visualizations to create the Super Store Sales dashboard. Refer to previous lessons and labs if needed!
 
-To create the dashboard, follow the instructions below. When you are finished, save and publish your completed dashboard to your Tableau Public account. Then, add the link to your dashboard in this assignment in canvas and click submit. You've just created your first interactive dashboard with Tableau Public.
+To create the dashboard, follow the instructions below. When you are finished, save and publish your completed dashboard to your Tableau Public account.
 
 The final product should look like this:
 
